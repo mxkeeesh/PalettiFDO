@@ -1,0 +1,9 @@
+name: PalettiFDO
+version: '${project.version}'
+main: me.mxkeeesh.palettifdo.PalettiFDO
+api-version: '1.16'
+commands:
+  palettifdo:
+    description: Ottieni uno stack di paletti
+    usage: /palettifdo
+    permission: palettifdo.get
